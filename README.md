@@ -10,5 +10,5 @@ Este repositorio contiene mi colección de proyectos resueltos de [Frontend Ment
 - **Descripción:** Aplicación de tareas con filtro, tema claro/oscuro y drag & drop.
 - **Tecnologías:** React, Tailwind CSS
 - **Estado:** 🟢 Finalizado
-- **Demo:** [Ver Demo]([#](https://willowy-kataifi-7b081a.netlify.app/)) 
+- **Demo:** [Ver Demo]([#])https://willowy-kataifi-7b081a.netlify.app/ 
 
