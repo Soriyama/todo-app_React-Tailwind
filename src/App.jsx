@@ -5,8 +5,17 @@ import TodoCreate from "./components/TodoCreate";
 import TodoList from "./components/TodoList";
 import TodoActions from "./components/TodoActions";
 
-const initialStateTodos = JSON.parse(localStorage.getItem("todos")) || [];
+const initialTodos = [
+  { id: 1, title: "Complete online JavaScript course", completed: true },
+  { id: 2, title: "Jag around park 3x", completed: false },
+  { id: 3, title: "10 minutes meditation", completed: false },
+  { id: 4, title: "Read for 1 hour", completed: false },
+  { id: 5, title: "Pick up groceries", completed: false },
+  { id: 6, title: "Complete Todo App on Frontend Mentor", completed: false },
+];
 
+const initialStateTodos =
+  JSON.parse(localStorage.getItem("todos")) || initialTodos;
 function App() {
   const [todos, setTodos] = useState(initialStateTodos);
 

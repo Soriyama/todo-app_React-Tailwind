@@ -10,12 +10,12 @@ const TodoItem = ({ todo, updateTodo, deleteTodo }) => {
       </button> */}
       <button
         onClick={() => updateTodo(id)}
-        className={`h-5 w-5 flex-none rounded-full border-2 text-gray-400 ${completed ? "grid place-items-center bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-gray-400" : "inline-block"}`}
+        className={`h-5 w-5 flex-none rounded-full border-2 text-gray-400 ${completed ? "grid place-items-center bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-gray-200" : "inline-block"}`}
       >
         {completed && <IconCheck />}
       </button>
       <p
-        className={`grow text-gray-800 dark:text-gray-300 ${completed && "line-through"}`}
+        className={`grow ${completed ? "text-gray-400 line-through dark:text-gray-600" : "text-gray-600 dark:text-gray-300"}`}
       >
         {title}
       </p>
