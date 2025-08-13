@@ -1,14 +1,13 @@
-# Frontend Mentor Challenges 🚀
+# Frontend Mentor Challenge 🚀
 
-Este repositorio contiene mi colección de proyectos resueltos de [Frontend Mentor](https://www.frontendmentor.io/). Cada proyecto es una oportunidad para mejorar mis habilidades en HTML, CSS, JavaScript y frameworks como React.
-
+Este repositorio contiene el desarrollo de una aplicacion de tareas.
 ---
 
-## 📚 Lista de desafíos
+## Desafío TODO App
 
 ### ✅ [Todo App](https://www.frontendmentor.io/challenges/todo-app-Su1_KokOW)
-- **Descripción:** Aplicación de tareas con filtro, tema claro/oscuro y drag & drop.
+- **Descripción:** Aplicación de tareas con filtro, tema claro/oscuro.
 - **Tecnologías:** React, Tailwind CSS
-- **Estado:** 🟢 Finalizado
+- **Estado:** 🔴 No finalizado
 - **Demo:** [Ver Demo ]([#])_https://willowy-kataifi-7b081a.netlify.app/_ 
 
